@@ -1,0 +1,13 @@
+# Address bar
+search --image profile_google.png --in 60
+wait 1
+click 220 50
+wait 1
+typing --text https://labs.zetachain.com/get-zeta
+pressing --input enter
+
+# Find Twitter Button
+search_and_click --image zetachain_verify_twitter.png --in 10
+
+# Confirm connect from Twitter
+search_and_click --image twitter_allow_en.png --in 30

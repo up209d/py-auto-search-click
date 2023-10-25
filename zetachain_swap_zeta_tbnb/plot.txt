@@ -1,0 +1,41 @@
+# Address bar
+search --image profile_google.png --in 60
+wait 1
+click 220 50
+wait 1
+typing --text https://labs.zetachain.com/swap
+pressing --input enter
+
+# Select From Network Goerli
+search_and_click --image zeta_network_selected_goerli.png zeta_select_network.png --in 10
+search_and_click --image zeta_goerli.png --in 5
+
+# Select From Token Zeta
+search_and_click --image zeta_select_token.png --in 10
+search_and_click --image zeta_zeta.png --in 10
+
+# Select To Network BNB
+search_and_click --image zeta_select_network.png --in 10
+search_and_click --image zeta_bsc_testnet.png --in 10
+
+# Select To Token BNB
+search_and_click --image zeta_select_token.png --in 10
+search_and_click --image zeta_tbnb.png --in 10
+
+# Connect wallet
+search_and_click --image zeta_connect_wallet.png --in 15
+search_and_click --image zeta_connect_wallet_metamask.png --in 15
+
+# Metamask
+search --image metamask_ask_password.png --in 30
+typing 1234567890
+pressing enter
+
+# Switch network if required
+search_and_click --image metamask_switch_network.png zeta_logo_not_clickable.png --in 5
+
+# Enter amount
+search_and_click --image zeta_enter_amount.png --in 5
+typing 0.1
+
+wait 3

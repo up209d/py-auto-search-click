@@ -1,0 +1,17 @@
+# Address bar
+search --image profile_google.png --in 60
+wait 1
+click 220 50
+wait 1
+typing --text https://labs.zetachain.com/get-zeta
+pressing --input enter
+
+# Kill dialog/popup
+search --image zeta_popup.png --in 15
+search_and_double_click --image zeta_popup_close.png --in 5
+
+# Connect wallet
+search_and_click --image zeta_connect_wallet.png --in 15
+search_and_click --image zeta_connect_wallet_metamask.png --in 15
+
+
