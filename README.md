@@ -2,7 +2,7 @@
 Base tool for detecting button by pixel matching and click
 
 Features:
-- Universal usage for most case, write instruction with user reading friendly plot
+- Universal & flexible for using case, write instructions with the user reading the friendly plot
 - Pixel matching and searching
-- Native OS typing/click that can bypass some captcha
+- Native OS typing/click that can bypass few captcha
 
